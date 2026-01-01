@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data Form</title>
+</head>
+<body style="background-color: brown;">
+    <form action="#" method="POST">
+        <fieldset >
+            <legend style="background-color: darkblue;"><h2>Personal Data</h2></legend>
+            <br>
+            <fieldset style="background-color: darkgoldenrod;">
+                <legend style="background-color: darkblue;">Your Name</legend>
+                <table>
+                    <tr>
+                        <td><label for="firstname">First Name:</label></td>
+                        <td><input type="text" name="fname" id="firstname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="secondname">Second Name:</label></td>
+                        <td><input type="text" name="sname" id="secondname"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            <br>
+            
+            <table>
+                <tr>
+                    <td><label for="phonenum">Your Phone number:</label></td>
+                    <td><input type="tel" id="phonenum" name="phonenum"></td>
+                </tr>
+                <br>
+                
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="pass"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="repassword">Re-Password:</label></td>
+                    <td><input type="password" id="repassword" name="re-pass"></td>
+                </tr>
+            </table>
+            
+            <br>
+            
+            <table>
+                <tr>
+                    
+                    <td>
+                        <input type="radio" name="gender" id="Female" value="Female">
+                        <label for="Female">Female</label>
+                        &nbsp;&nbsp;
+                        <br>
+                        <input type="radio" name="gender" id="Male" value="Male">
+                        <label for="Male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                  
+                    <td>
+                        <input type="checkbox" name="stud" id="Student">
+                        <label for="Student">Student</label>
+                        &nbsp;&nbsp;
+                        <br>
+                        <input type="checkbox" name="grad" id="Graduated">
+                        <label for="Graduated">Graduated</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="options"></label></td>
+                    <td>
+                        <select id="options" name="option">
+                            <optgroup label="Group 1">
+                                <option value="opt 1.1">Option 1.1</option>
+                            </optgroup>
+                            <optgroup label="Group 2">
+                                <option value="opt 2.1">Option 2.1</option>
+                                <option value="opt 2.2">Option 2.2</option>
+                            </optgroup>
+                            <optgroup label="Group 3">
+                                <option value="opt 3.1">Option 3.1</option>
+                                <option value="opt 3.2">Option 3.2</option>
+                                <option value="opt 3.3">Option 3.3</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            
+            <br><br>
+            
+            
+                <input type="image" src="button-site-submit-icon-vector-260nw-310139330.jpg" 
+                       alt="Submit" width="150">
+            
+        </fieldset>
+    </form>
+</body>
+</html>
